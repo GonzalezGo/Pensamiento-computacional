@@ -1,0 +1,15 @@
+import math
+
+print("Primer programa")
+R= input("Ingrese un número ")
+
+R= float(R)
+A = math.pi*R**2
+print(f"El área del radio es {A:.2f}")
+
+print("Segundo programa")
+R= input("Ingrese un número ")
+
+R= float(R)
+P = 2*math.pi*R
+print(f"El perímetro del radio es {P:.2f}")

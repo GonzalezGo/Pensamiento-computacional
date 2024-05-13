@@ -1,0 +1,53 @@
+edad=int(input("Ingrese un número: "))
+if edad < 0 or edad>120:
+    print("Edad no válida")
+else:
+    if edad >=18:
+        print("La persona es mayor de edad")
+    else: 
+         print("La persona es menor de edad")
+
+
+nota=int(input("Ingrese una nota: "))
+if nota < 0 or nota>100: 
+    print("Nota no válida")
+else: 
+    if nota>=0 and nota<=20: 
+        print("Facultad 1")
+    elif 21 <= nota <=40:
+        print("Facultad 2")
+    elif 41<= nota <=60:
+        print("Facultad 3")
+    elif 61<= nota <=80:
+        print("Facultad 4")
+    else:
+        print("Facultad 5")
+
+
+edad=int(input("Ingrese un número: "))
+if edad <0 or edad>100: 
+    print("Edad no válida")
+else: 
+    if nota>=0 and nota<=20: 
+        print("Psicología")
+    elif 21 <= nota <=40:
+        print("marketing")
+    elif 41<= nota <=60:
+        print("Medicina")
+    elif 61<= nota <=80:
+        print("Periodismo")
+    else:
+        print("Administración de empresas")
+
+
+    
+número=int(input("Ingrese un número: "))
+if número == 0:
+    print("Número no válido")
+else: 
+    if número % 2 ==0:
+        print("el número es par")
+    else:
+        print("el número es impar")
+
+

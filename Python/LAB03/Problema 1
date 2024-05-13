@@ -1,0 +1,31 @@
+#Scarlette González 1101924
+#Gabriela castro 1054324
+import math
+
+monto=int(input("Ingrese el valor de su cuota: "))
+print("Si tienen un cupón se le agrega un duescuento del 5%")
+
+if (monto<400): 
+     print("No hay descuento")
+
+else:
+    if (monto >= 400 and monto <= 1000):
+         D1= monto*0.07
+         print(f"Se aplica un descuento del 7%: {D1:.2f}")
+
+    elif monto >= 1000 and monto <= 5000:
+             D2= monto*0.10
+             print(f"Se aplica un descuento del 10%: {D2:.2f}")
+
+    elif monto >= 5000 and monto <= 15000:
+          D3= monto*0.15
+          print(f"Se aplica un descuento del 15%: {D3:.2f}")
+
+    elif monto>=15000:
+          D4= monto*0.25
+          print(f"Se aplica un descuento del 25%: {D4:.2f}")
+
+
+
+
+
