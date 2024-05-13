@@ -1,0 +1,8 @@
+import math
+
+print("Primer programa")
+F= input("Ingrese un número ")
+
+F = float(F)
+C= (F-32)/1.8
+print(f"La cantidad de grados Celsius es {C:.2f}")

@@ -1,0 +1,36 @@
+import math
+
+def menú():
+    print("Elija una opción: ")
+    print("a. Área de triangulo")
+    print("b. Área de cuadrado")
+    print("c. Área de rectangulo")
+    print("d. Área de circulo")
+    opcion=input ()
+    return opcion
+
+def ObtenerAreaTriangulo(base,altura):
+    return (base*altura)/2
+
+def ObtenerAreaCuadrado(lado):
+    return lado**2
+
+def ObtenerAreaRectangulo(base,altura):
+    return base*altura
+
+def ObtenerAreaCirculo(radio):
+    return math.pi*radio**2
+
+print("Semana No. 15 - Ejercicio 1")
+match(menú()):
+    case "a":
+        print("El area del triangulo es: ", ObtenerAreaTriangulo(float(input("Ingrese la base del triangulo: ")), float(input("Ingrese la altura del traingulo: "))))
+    
+    case "b":
+        print("El area del cuadrado es: ", ObtenerAreaCuadrado(float(input("Ingrese el lado del cuadrado: "))))
+    
+    case "c":
+        print("El area del rectangulo es: ", ObtenerAreaRectangulo(float(input("Ingrese la base del rectangulo: ")), float(input("Ingrese la altura del rectangulo: "))))
+    
+    case "d":
+        print("El area del circulo es: ",round (ObtenerAreaCirculo(float(input("Ingrese el radio del circulo: "))), 3))

@@ -1,0 +1,17 @@
+import math
+
+print("Primer programa")
+
+corredor1= input("corredor1 ")
+corredor2= input("corredor2 ")
+corredor3= input("corredor3 ")
+corredor4= input("corredor4 ")
+
+corredor1= int(corredor1)
+corredor2= int(corredor2)
+corredor3= int(corredor3)
+corredor4= int(corredor4)
+
+Tiempo= 400/(corredor1 + corredor2 + corredor3 + corredor4)
+print("El tiempo que se toman en recorrer 100m/s es ", Tiempo)
+
